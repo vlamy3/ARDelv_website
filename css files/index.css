@@ -1,0 +1,99 @@
+:root {
+   --platinum: #E6E8E6;
+   --battleshipgray: #798071;
+   --vermilion: #FF312E;
+   --spacecadet: #1C2541;
+   --raisinblack: #1E1E24;
+   --bloodred: #660000;
+   --floralwhite: #FAF7F0;
+   --silver: #C0C0C0;
+   --sage: #CACAAA;
+}
+
+
+.libre-franklin-uniquifier> {
+  font-family: "Libre Franklin", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.NavBar {
+   background-color: var(--spacecadet);
+   color: var(--almond);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  padding-left: 50px;
+}
+
+body {
+  font-family: libre-franklin-uniquifier;
+  background-color: white;
+}
+a {
+  color: var(--sage);
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 60px;
+  text-align: center;
+  font-size: 1.5em;
+}
+button {
+  background-color: var(--spacecadet);
+  color: var(--almond);
+  border: solid 2px var(--silver);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+h1 {
+  color: var(--vermilion);
+  font-size: 2.5em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.NavBar, h1 {
+  text-align: center;
+}
+
+.NavBar, img {
+  border: solid 2px var(--silver);
+  border-radius: 15px;
+}
+
+.section1 {
+  text-align: center;
+  background-color: var(--floralwhite);
+  margin-top:0px;
+  border: none;
+  border-radius: 5px;
+  margin:0px;
+
+}
+.section1 h1 {
+  margin-top: 2px;
+  margin:0px;
+}
+.section1 p {
+  margin-top: 2px;
+  margin:0px;
+}
+.section2 {
+  text-align: center;
+  background-color: var(--floralwhite);
+  border: none;
+  border-radius: 5px;
+  font-family: libre-franklin-uniquifier;
+  margin:0px;
+  font-size: 20px;
+  display:flexbox
+
+}
+
+
+
